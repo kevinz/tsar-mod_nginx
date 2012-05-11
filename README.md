@@ -24,11 +24,13 @@ Configuration
 -------------
 1. We can change nginx server port to be monitored,default is 80.
 
-    example: 
+    ####example: 
     >`export NGX_TSAR_PORT=8080`
 
 2. Stub Status module must be included,and add configuration as below:
 
     >location =  /status {
+    >
     >         stub_status on;
+    >
     >}
