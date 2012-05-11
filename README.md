@@ -9,9 +9,12 @@ Quick start
 -----------
 1. Install [tsar](http://code.taobao.org/p/tsar/src/).
 2. Generate a new module by using [tsardevel](http://code.taobao.org/p/tsar/wiki/mod/).
+
     >`tsardevel ngx_mod`
 3. Replace ngx_mod.c.
+
     >`make`
+
     >`make install`
 4. >`tsar --nginx`
 
